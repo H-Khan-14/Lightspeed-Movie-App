@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+## Submission requirements:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In an email to the interviewer(s), please provide the following: 
 
-## Available Scripts
+1. a link to either a Github repo (or any other Git manager online service of your choice), or a CodePen (or any other online editor of your choice), where your submission can be seen/downloaded and tested in the browser. If your submission cannot be tested directly in the browser, please provide detail instructions on how to run it and display it in the browser.
 
-In the project directory, you can run:
+2. a short rationale, where you can further expand on the logic and aesthetic decisions and/or highlight any notable aspects or challenges about your submission.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Test details
 
-### `npm test`
+The duration of this exercise may average between 4 to 5 hours.
+Based on the below wireframe and the content provided in [content.json](./content.json),
+__create a component where the user would be able to filter by movie genres and display the filtered movie information.__
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./diagram.png) 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Noteworthy considerations:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The filter, should contain all the movie genres listed in the details for each movie inside [content.json](./content.json) .
+- Feel free to use the colour scheme and the font of your choice.
+- Feel free to use transitions, animations, or hover effects.
+- Feel free to use any external UI library.
+- Feel free to use other images than the ones provided, if you wish to.
+- Feel free to layout the card the way you see appropriate, you don't have to abide by the wireframe.
+- The JSON file can be used however you find appropriate; as a reference to copy/paste the content or by itself to get the content.
+- The submission should be free form visual and script errors, and a special attention needs to be given to UX best practices.
+- The technologies you can use should involve, but not limited to: _HTML_, _CSS_, and _Javascript_.

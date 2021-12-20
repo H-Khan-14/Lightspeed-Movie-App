@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+.genre-sec {
+  width: 100%;
+  border: solid black 2px;
+  height: 10vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.mov-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: auto;
+  align-content: start
+}
+
+.mov-item {
+  width: 45%;
+  margin-top: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.movie-card {
+  width: 100%;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-left {
+  width: 50%;
+  height: 100%;
+}
+
+.card-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.card-right h3 {
+  font-size: 2vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .mov-item {
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-right {
+    width: 100%;
+  }
+
+  .card-right button {
+    margin-bottom: 10px;
+  }
+
+  .movie-card {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
